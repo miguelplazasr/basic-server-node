@@ -1,0 +1,1574 @@
+{
+  "isSuccess": true,
+  "messages": [],
+  "responseData": {
+    "calculoConfig": null,
+    "cuotaRamosDerechos": null,
+    "pagoAnticipadoBin": null,
+    "paqueteReglaSumaAseguradaCollection": [],
+    "recargoAdministrativo": {
+      "maximo": null,
+      "minimo": null,
+      "predeterminado": null
+    },
+    "paqueteId": 455,
+    "paqueteNom": "Nacional",
+    "paqueteDesc": "Nacional",
+    "tipoPaquete": {
+      "id": 1,
+      "nombre": "Normal",
+      "clave": null
+    },
+    "modulosCount": 0,
+    "primaMinima": {
+      "primaMinimaPoliza": 0,
+      "primaMinimaEndoso": 0
+    },
+    "derechos": {
+      "tipoDerecho": null,
+      "minimo": null,
+      "maximo": null,
+      "derechoPoliza": null,
+      "derechoEndoso": null
+    },
+    "vigenciaPoliza": null,
+    "coberturas": [
+      {
+        "coberturaId": 1011,
+        "nombre": "Muerte accidental",
+        "descripcion": "Accidental Death",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3588,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 10000,
+              "default": true,
+              "textoAsociado": "$10,000"
+            },
+            {
+              "id": 3608,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 25000,
+              "default": true,
+              "textoAsociado": "$25,000"
+            },
+            {
+              "id": 3628,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 50000,
+              "default": true,
+              "textoAsociado": "$50,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 1,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 1013,
+        "nombre": "Invalidez Total y Permanente por Accidente",
+        "descripcion": "Total and Permanent Disability by Accident",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3589,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 10000,
+              "default": true,
+              "textoAsociado": "$10,000"
+            },
+            {
+              "id": 3609,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 25000,
+              "default": true,
+              "textoAsociado": "$25,000"
+            },
+            {
+              "id": 3629,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 50000,
+              "default": true,
+              "textoAsociado": "$50,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 2,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 876,
+        "nombre": "Gastos Médicos por Accidente y/o Enfermedad",
+        "descripcion": "Gastos Médicos por Accidente y/o Enfermedad",
+        "obligatoria": true,
+        "default": false,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3591,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 3500,
+              "default": true,
+              "textoAsociado": "$3,500"
+            },
+            {
+              "id": 3611,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 6000,
+              "default": true,
+              "textoAsociado": "$6,000"
+            },
+            {
+              "id": 3631,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 10000,
+              "default": true,
+              "textoAsociado": "$10,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 3,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 877,
+        "nombre": "Gastos por Emergencia Odontológica",
+        "descripcion": "Gastos por Emergencia Odontológica",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3595,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 500,
+              "default": true,
+              "textoAsociado": "$500"
+            },
+            {
+              "id": 3615,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 1000,
+              "default": true,
+              "textoAsociado": "$1,000"
+            },
+            {
+              "id": 3635,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1500,
+              "default": true,
+              "textoAsociado": "$1,500"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 5,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 855,
+        "nombre": "ASISTENCIA VIAJE",
+        "descripcion": "Reembolso por Compra de Medicamentos Recetados",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3593,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 500,
+              "default": true,
+              "textoAsociado": "$500"
+            },
+            {
+              "id": 3613,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 1000,
+              "default": true,
+              "textoAsociado": "$1,000"
+            },
+            {
+              "id": 3633,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1500,
+              "default": true,
+              "textoAsociado": "$1,500"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 6,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 878,
+        "nombre": "Traslados Médicos de Emergencia y Traslados Sanitarios",
+        "descripcion": "Traslados Médicos de Emergencia y Traslados Sanitarios",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3592,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 3500,
+              "default": true,
+              "textoAsociado": "$3,500"
+            },
+            {
+              "id": 3612,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 6000,
+              "default": true,
+              "textoAsociado": "$6,000"
+            },
+            {
+              "id": 3632,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 10000,
+              "default": true,
+              "textoAsociado": "$10,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 7,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 856,
+        "nombre": "Gastos Funerarios o Traslado de Restos Mortales",
+        "descripcion": "Gastos Funerarios o Traslado de Restos Mortales",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3590,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 3500,
+              "default": true,
+              "textoAsociado": "$3,500"
+            },
+            {
+              "id": 3610,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 6000,
+              "default": true,
+              "textoAsociado": "$6,000"
+            },
+            {
+              "id": 3630,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 10000,
+              "default": true,
+              "textoAsociado": "$10,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 8,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 954,
+        "nombre": "Demora de Viaje",
+        "descripcion": "Demora de Viaje",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3599,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 250,
+              "default": true,
+              "textoAsociado": "$250"
+            },
+            {
+              "id": 3619,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 500,
+              "default": true,
+              "textoAsociado": "$500"
+            },
+            {
+              "id": 3638,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1000,
+              "default": true,
+              "textoAsociado": "$1,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 13,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 952,
+        "nombre": "Cancelación de Viaje por Enfermedad, Accidente o Fallecimiento",
+        "descripcion": "Cancelación de viaje",
+        "obligatoria": true,
+        "default": false,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3597,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 250,
+              "default": true,
+              "textoAsociado": "$250"
+            },
+            {
+              "id": 3617,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 500,
+              "default": true,
+              "textoAsociado": "$500"
+            },
+            {
+              "id": 3636,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1000,
+              "default": true,
+              "textoAsociado": "$1,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 14,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 953,
+        "nombre": "Interrupción de Viaje",
+        "descripcion": "Interrupción de Viaje",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3598,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 250,
+              "default": true,
+              "textoAsociado": "$250"
+            },
+            {
+              "id": 3618,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 500,
+              "default": true,
+              "textoAsociado": "$500"
+            },
+            {
+              "id": 3637,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1000,
+              "default": true,
+              "textoAsociado": "$1,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 15,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 955,
+        "nombre": "Pérdida de Equipaje",
+        "descripcion": "Pérdida de Equipaje",
+        "obligatoria": true,
+        "default": false,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3600,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 250,
+              "default": true,
+              "textoAsociado": "$250"
+            },
+            {
+              "id": 3620,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 500,
+              "default": true,
+              "textoAsociado": "$500"
+            },
+            {
+              "id": 3639,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1000,
+              "default": true,
+              "textoAsociado": "$1,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 17,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 958,
+        "nombre": "Demora de Equipaje",
+        "descripcion": "Demora de Equipaje",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3601,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 250,
+              "default": true,
+              "textoAsociado": "$250"
+            },
+            {
+              "id": 3621,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 500,
+              "default": true,
+              "textoAsociado": "$500"
+            },
+            {
+              "id": 3641,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 750,
+              "default": true,
+              "textoAsociado": "$750"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 18,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 863,
+        "nombre": "Daño de Equipaje",
+        "descripcion": "Daño de Equipaje",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3594,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 500,
+              "default": true,
+              "textoAsociado": "$500"
+            },
+            {
+              "id": 3614,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 1000,
+              "default": true,
+              "textoAsociado": "$1,000"
+            },
+            {
+              "id": 3634,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1500,
+              "default": true,
+              "textoAsociado": "$1,500"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 19,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 864,
+        "nombre": "Pérdida o Robo de Documentos de Viaje",
+        "descripcion": "Pérdida o Robo de Documentos de Viaje",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3596,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 250,
+              "default": true,
+              "textoAsociado": "$250"
+            },
+            {
+              "id": 3616,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 500,
+              "default": true,
+              "textoAsociado": "$500"
+            },
+            {
+              "id": 3640,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 750,
+              "default": true,
+              "textoAsociado": "$750"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 20,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 1050,
+        "nombre": "Responsabilidad Civil",
+        "descripcion": "RESPONSABILIDAD CIVIL (L.U.C.)",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3602,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 25000,
+              "default": true,
+              "textoAsociado": "$25,000"
+            },
+            {
+              "id": 3622,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 50000,
+              "default": true,
+              "textoAsociado": "$50,000"
+            },
+            {
+              "id": 3642,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 100000,
+              "default": true,
+              "textoAsociado": "$100,000"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 21,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 867,
+        "nombre": "Asistencia para pérdida o robo de pasaporte o visa",
+        "descripcion": "Asistencia para pérdida o robo de pasaporte o visa",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3603,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3623,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3643,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 22,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 880,
+        "nombre": "Envio de medicamentos prescritos",
+        "descripcion": "Envio de medicamentos prescritos",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3607,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3627,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3647,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 23,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 869,
+        "nombre": "Servicios de Concierge",
+        "descripcion": "Servicios de Concierge",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3604,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3624,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3644,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 24,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 870,
+        "nombre": "Búsqueda y Localización de Equipaje",
+        "descripcion": "Búsqueda y Localización de Equipaje",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3605,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3625,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3645,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 25,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      },
+      {
+        "coberturaId": 871,
+        "nombre": "Servicio telefónico de traductor por emergencia y/o envío de traductor.",
+        "descripcion": "Servicio telefónico de traductor por emergencia y/o envío de traductor.",
+        "obligatoria": false,
+        "default": true,
+        "opcional": false,
+        "deshabilitada": false,
+        "noVisible": false,
+        "primaMinima": null,
+        "tasaBase": null,
+        "factorPorCobertura": null,
+        "tipoCobertura": {
+          "id": 1,
+          "nombre": "Principal",
+          "clave": null
+        },
+        "subCoberturas": null,
+        "deducibleConfig": [],
+        "sumaAseguradaConfig": {
+          "predeterminado": null,
+          "textoAsociado": null,
+          "limiteRango": null,
+          "limiteRangoPct": null,
+          "valores": [
+            {
+              "id": 3606,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 7,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3626,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 8,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            },
+            {
+              "id": 3646,
+              "monedaId": 2,
+              "max": 0,
+              "min": 0,
+              "planPaqueteId": 9,
+              "valor": 1,
+              "default": true,
+              "textoAsociado": " Incluido"
+            }
+          ],
+          "agregaSumaAsegurada": 0,
+          "paqueteCoberturaLNSADependencias": null
+        },
+        "dependientes": [],
+        "dependen": [],
+        "camposDependientes": [],
+        "coberturaEdades": [],
+        "toolTip": null,
+        "clausulas": [],
+        "ramoId": 29,
+        "medidaPrestacion": {
+          "medidaPrestacionId": null,
+          "descripcion": null
+        },
+        "orden": 26,
+        "rimet": null,
+        "configRimet": false,
+        "categoria": null
+      }
+    ],
+    "paqueteDetalle": null,
+    "paqueteDetalleComision": null,
+    "paqueteComisionRango": null,
+    "paquetesComision": null,
+    "modulos": [],
+    "caracteristicasOpcion": [
+      {
+        "caracteristicaId": 373,
+        "catalogoNombre": "_CPLANES",
+        "descripcion": "Catálogo de planes aplicables por paquete y suma asegurada",
+        "opciones": [
+          {
+            "descripcion": "Roadtrip $3.5 mil USD",
+            "opcionId": 7,
+            "paqueteCatalogoOpcionId": 18356,
+            "paqueteCatalogoOpcionIdPadre": 0
+          },
+          {
+            "descripcion": "Visitante $6 mil USD",
+            "opcionId": 8,
+            "paqueteCatalogoOpcionId": 18357,
+            "paqueteCatalogoOpcionIdPadre": 0
+          },
+          {
+            "descripcion": "Turista $10 mil USD",
+            "opcionId": 9,
+            "paqueteCatalogoOpcionId": 18358,
+            "paqueteCatalogoOpcionIdPadre": 0
+          }
+        ]
+      }
+    ],
+    "parametroTecnico": null,
+    "comisionDefault": null,
+    "tarifaId": null,
+    "centroCostos": false
+  }
+}
