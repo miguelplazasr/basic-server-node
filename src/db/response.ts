@@ -1,4 +1,6 @@
-{
+import {ResponseModel} from "../response-model";
+
+export const RESPONSE: ResponseModel = {
   "isSuccess": true,
   "messages": [],
   "responseData": {
