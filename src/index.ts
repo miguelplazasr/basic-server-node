@@ -7,6 +7,7 @@ let planes: any[] = [];
 let coberturas: any[] = [];
 let formatPlans: exportModel[] = [];
 let finalPlan: exportModel[] = [];
+
 const respuesta = res$.pipe(
     map((res) => res.responseData),
     map(({coberturas, caracteristicasOpcion: [{opciones}]}) => ({coberturas, caracteristicasOpcion: [...opciones]})),
@@ -47,6 +48,10 @@ const casi$ = coverturas$.pipe(
         }));
     })
 });
+
+
+console.log(resFrmt);
+
 
 of(resFrmt).pipe(
     mergeMap( res => res),
